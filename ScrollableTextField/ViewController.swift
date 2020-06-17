@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         let label1 = UILabel(frame: CGRect(x: 50, y: 100, width: 200, height: 50))
         label1.text = "ScrollableTextField"
         self.view.addSubview(label1)
-        
         let scrollableTextField = ScrollableTextField(frame: CGRect(x: 50, y: 150, width: 200, height: 50))
         self.view.addSubview(scrollableTextField)
         scrollableTextField.backgroundColor = .green
@@ -28,6 +27,13 @@ class ViewController: UIViewController {
         let textFiled = UITextField(frame: CGRect(x: 50, y: 300, width: 200, height: 50))
         self.view.addSubview(textFiled)
         textFiled.backgroundColor = .red
+        
+        let label3 = UILabel(frame: CGRect(x: 50, y: 400, width: 200, height: 50))
+        label3.text = "ScrollableTextField_OC"
+        self.view.addSubview(label3)
+        let scrollableTextFieldOC = ScrollableTextField_OC(frame: CGRect(x: 50, y: 450, width: 200, height: 50))
+        self.view.addSubview(scrollableTextFieldOC)
+        scrollableTextFieldOC.backgroundColor = .yellow
     }
 
 

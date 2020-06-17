@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1BF9182499C880006C66FE /* ScrollableTextField-OC.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1BF9172499C880006C66FE /* ScrollableTextField-OC.m */; };
 		FDD7502E235D608B004DD2E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7502D235D608B004DD2E3 /* AppDelegate.swift */; };
 		FDD75032235D608B004DD2E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD75031235D608B004DD2E3 /* ViewController.swift */; };
 		FDD75035235D608B004DD2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD75033235D608B004DD2E3 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD1BF9162499C880006C66FE /* ScrollableTextField-OC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollableTextField-OC.h"; sourceTree = "<group>"; };
+		FD1BF9172499C880006C66FE /* ScrollableTextField-OC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ScrollableTextField-OC.m"; sourceTree = "<group>"; };
 		FDD7502A235D608B004DD2E3 /* ScrollableTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD7502D235D608B004DD2E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDD75031235D608B004DD2E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				FDD75041235D60E3004DD2E3 /* ScrollableTextField.swift */,
+				FD1BF9162499C880006C66FE /* ScrollableTextField-OC.h */,
+				FD1BF9172499C880006C66FE /* ScrollableTextField-OC.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				FDD75042235D60E3004DD2E3 /* ScrollableTextField.swift in Sources */,
 				FDD75032235D608B004DD2E3 /* ViewController.swift in Sources */,
+				FD1BF9182499C880006C66FE /* ScrollableTextField-OC.m in Sources */,
 				FDD7502E235D608B004DD2E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N3GB72V5TU;
+				DEVELOPMENT_TEAM = 2MVQVUGM76;
 				INFOPLIST_FILE = ScrollableTextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
